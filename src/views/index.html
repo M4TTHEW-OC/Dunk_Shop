@@ -13,8 +13,10 @@
 <body class="bg-image">
 
   <div class="container image">
+
+    <h6 style="color: orangered; text-align: center; font-size: 80px; margin-top: 10%;" class="texto">Dunk Shop</h6>
   <div class="row">
-    <div class="col-4 offset-4 mt-5 bg-light bg-gradient">
+    <div class="col-4 offset-4 mt-5 bg-dark bg-gradient " style="color: white;">
 
       {{#sucesso}}
       <div class="alert alert-success">Usuário cadastrado!</div>
@@ -26,7 +28,7 @@
       <div class="alert alert-danger">Erro no login.</div>
       {{/erro_login}}
 
-      <h6 class="mt-3">Iniciar sessão</h6>
+      <h6 class="mt-3 ft-bold">Iniciar sessão</h6>
 
       <form action="/logar" method="post">
         <div class="mb-1 mt-1">
