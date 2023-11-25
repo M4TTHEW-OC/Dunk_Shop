@@ -1,0 +1,23 @@
+.bg-image {
+    height: 100%; 
+    background-image: url('img/times.jpg');
+    background-size: cover;
+}
+
+
+
+.texto {
+    
+    text-shadow: 
+             -2px -2px 0px #FFF, 
+             -2px 2px 0px #FFF,                    
+              2px -2px 0px #FFF,                  
+              2px 0px 0px #FFF;
+}
+
+
+.bg-image-Logo {
+    height: 100%; 
+    background-image: url('img/Bola-removebg-preview.png');
+    background-size: cover;
+}
